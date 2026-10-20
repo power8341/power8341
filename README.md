@@ -16,18 +16,12 @@ I like making data flow reliably between systems: APIs, integrations, automation
 
 | Project | What it does | Stack |
 |---|---|---|
+| [sme-lead-enrichment](https://github.com/power8341/sme-lead-enrichment) | Enriches prospect lists with French public register data, picks the right company, scores leads and pushes them to Salesforce | Python, REST APIs, Salesforce |
+| [growth-data-integration](https://github.com/power8341/growth-data-integration) | Incremental, idempotent sync of Salesforce leads to Segment and Braze, with retries, run history and alerts | Python, REST APIs, Segment, Braze, SQLite |
+| [acquisition-funnel-insights](https://github.com/power8341/acquisition-funnel-insights) | Funnel and channel analysis with cost per activated customer and clear recommendations | SQL, DuckDB, Python, Looker Studio |
+| [website-tracking-tagging](https://github.com/power8341/website-tracking-tagging) | Tracking plan, data layer, GTM setup for GA4 and Meta, and SQL checks that find tracking bugs | JavaScript, GTM, GA4, SQL |
 | [ecommerce-streaming-pipeline](https://github.com/power8341/ecommerce-streaming-pipeline) | Real-time order stream with exactly-once processing and schema enforcement | Kafka, PySpark, Delta Lake, Docker |
 | [Real-Time Sensor Data Quality](https://github.com/power8341/Real-Time-Sensor-Data-Quality-with-Kafka-and-Great-Expectations) | Data quality checks on a live stream | Kafka, Great Expectations, Python |
-| [ev-charging-analytics](https://github.com/power8341/ev-charging-analytics) | EV charging pattern analysis | PySpark, Delta Lake, Databricks |
-
-### Currently building
-
-| Project | Goal | Stack |
-|---|---|---|
-| [sme-lead-enrichment](https://github.com/power8341/sme-lead-enrichment) | Enrich prospect lists with public company data and score leads for Sales | Python, REST APIs, Salesforce |
-| [growth-data-integration](https://github.com/power8341/growth-data-integration) | Sync leads and events from Salesforce to Segment and Braze | Python, REST APIs, Segment, Braze |
-| [acquisition-funnel-insights](https://github.com/power8341/acquisition-funnel-insights) | Funnel and channel analysis with clear recommendations | SQL, Python, Looker Studio |
-| [website-tracking-tagging](https://github.com/power8341/website-tracking-tagging) | Tracking plan and conversion events for paid campaigns | Google Tag Manager, GA4, JavaScript |
 
 ### Experience
 
